@@ -207,9 +207,14 @@
    //final output
 
 
-   let one = "hello world!";
 
-   let finall = atob(one);
-   console.log(finall);
+  function myFunction(a,b) {
+    console.log("This is my function");
+   return a+b;
+  }
+  console.log(myFunction(10,20));
 
-   console.log("my last code to be sucessfully run");
+  let firstName = "maulik";
+  let lastName = "sarena";
+  let fullName= `${firstName} ${lastName}`;
+  console.log(fullName);
